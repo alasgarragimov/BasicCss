@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.h1_tittle {
+    font-size: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: underline 6px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.h2_tittle {
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav_tittle {
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav_tittle p {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+
+.nav_tittle img {
+    object-fit: cover;
+    width: 25%;
+    margin: auto;
+    display: block;
+}
+
+.h3_tittle {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.f_cont {
+    text-align: center;
+    border: 4px solid black;
+    margin-top: 30px;
+}
+
+.f_cont ul {
+    font-size: 30px;
+    font-weight: 600;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+.f_cont li::marker {
+    color: red;
+    font-size: 1.1em;
+}
+
+.f_cont ul li a {
+    text-decoration-color: red;
+    text-decoration-thickness: 4px;
+    /* text-transform: uppercase; */
+}
